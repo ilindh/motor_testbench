@@ -1,0 +1,26 @@
+# KiCad modern backups (KiCad 7+)
+*-backups/
+
+.lck
+# KiCad legacy backups and autosaves
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*-save.pro
+*-save.kicad_pcb
+*-save.kicad_sch
+*_autosave-*
+_autosave-*
+
+# KiCad caches
+fp-info-cache
+
+# Generated files
+*.bck
+*.kicad_pcb-shl
+python_environment/
+
+# OS files
+.DS_Store
+Thumbs.db
