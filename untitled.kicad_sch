@@ -7,7 +7,6 @@
 	(title_block
 		(title "Measurements")
 		(rev "1.0")
-		(company "Torakka Design Oy")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP6022"
@@ -3674,6 +3673,12 @@
 		(uuid "e33371a8-d047-440c-a8ad-9089bd7c6e21")
 	)
 	(junction
+		(at 99.06 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b78a64-8385-43b6-afc5-2d679f7ba32b")
+	)
+	(junction
 		(at 231.14 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3820,6 +3825,16 @@
 			(type default)
 		)
 		(uuid "09e9585e-0307-47e6-a76f-2a83b8c56e93")
+	)
+	(wire
+		(pts
+			(xy 99.06 115.57) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd7157a-6b12-4540-94a4-c53d7c98b87f")
 	)
 	(wire
 		(pts
@@ -4953,7 +4968,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 115.57) (xy 100.33 115.57)
+			(xy 95.25 115.57) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7692,7 +7707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1520f933-1366-47d4-8798-f2353875dd54")
-		(property "Reference" "Vsig3"
+		(property "Reference" "Vsig4"
 			(at 213.36 133.8579 0)
 			(effects
 				(font
@@ -7743,7 +7758,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "Vsig3")
+					(reference "Vsig4")
 					(unit 1)
 				)
 			)
@@ -9135,7 +9150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d79cde5-f83c-40c4-ac35-1a882e434d96")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 96.52 163.8299 0)
 			(effects
 				(font
@@ -9198,7 +9213,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -9268,6 +9283,72 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f7e2c33-bd97-4c00-bc52-346c3bc98c67")
+		(property "Reference" "Vsig3"
+			(at 96.774 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.774 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4348365c-15bb-4ea5-b0ee-fb91d55b51ab")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
+					(reference "Vsig3")
 					(unit 1)
 				)
 			)
@@ -10025,7 +10106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a050994-08b2-491c-912d-537741022d18")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 41.91 156.2099 0)
 			(effects
 				(font
@@ -10088,7 +10169,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11879,7 +11960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b332beb0-031a-41d0-8f1e-892c079e3bb3")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 26.924 67.564 0)
 			(effects
 				(font
@@ -11931,7 +12012,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12082,7 +12163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbb1f9bc-cab6-43aa-891b-681fb7aaf79e")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 33.274 168.656 0)
 			(effects
 				(font
@@ -12143,7 +12224,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12365,7 +12446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be6a6ca6-e60b-4d71-898b-7a0713a751ee")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 27.178 51.308 0)
 			(effects
 				(font
@@ -12417,7 +12498,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13916,7 +13997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95ba016-b8ec-400f-acb8-f79dffc566b0")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 66.04 175.2599 0)
 			(effects
 				(font
@@ -13976,7 +14057,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
