@@ -2585,6 +2585,16 @@
 		)
 		(uuid "60326781-4359-4677-ab19-03386881ba28")
 	)
+	(text "TODO: korjaa 52.3k johonkin legittiin arvoon"
+		(exclude_from_sim no)
+		(at 171.45 128.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "719229e0-27d0-4264-82e3-caaa112ae829")
+	)
 	(text "Input: 4-6s LiPo"
 		(exclude_from_sim no)
 		(at 115.062 81.28 0)

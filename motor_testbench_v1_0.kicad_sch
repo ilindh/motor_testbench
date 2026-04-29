@@ -3490,6 +3490,16 @@
 		)
 		(uuid "2cbdacfc-70e7-446f-8e26-ee1cd263a634")
 	)
+	(text "TODO: vaihda global labelit power labeleihin"
+		(exclude_from_sim no)
+		(at 143.51 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e079510-211e-4576-83dd-9dc6c2b0f4bc")
+	)
 	(text "I2C Pull-up resistors"
 		(exclude_from_sim no)
 		(at 129.794 165.862 90)
@@ -4280,16 +4290,6 @@
 		)
 		(uuid "f84eada8-660b-498d-8497-3f836cd4634b")
 	)
-	(wire
-		(pts
-			(xy 60.96 175.26) (xy 73.66 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc8f9ba0-398c-4db1-b40d-d8f0ec9d9b16")
-	)
 	(label "16"
 		(at 147.32 151.13 0)
 		(effects
@@ -4808,7 +4808,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 175.26 0)
+		(at 60.96 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(uuid "0fcabb96-7556-4108-b96a-4564531f35ff")
 		(property "Reference" "#PWR02"
-			(at 73.66 181.61 0)
+			(at 60.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 180.594 0)
+			(at 60.96 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +4834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 175.26 0)
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 175.26 0)
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 175.26 0)
+			(at 60.96 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

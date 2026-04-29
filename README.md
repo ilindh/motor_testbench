@@ -9,8 +9,8 @@
 | **Board Dimensions** | 132.75 x 73.0 mm |
 | **Total Area** | 9687.31 mm² |
 | **Layer Count** | 4 Copper Layers |
-| **Total Components** | 164 |
-| **SMD Components** | 106 |
+| **Total Components** | 160 |
+| **SMD Components** | 102 |
 | **THT Components** | 17 |
 | **Unique Parts** | 52 |
 | **KiCad Version** | 9.0.7 |
@@ -18,7 +18,7 @@
 ### 📐 Manufacturing & DRC
 | Metric | Value |
 | :--- | :--- |
-| **Vias** | 835 Total (835 TH, 0 Blind, 0 Micro) |
+| **Vias** | 828 Total (828 TH, 0 Blind, 0 Micro) |
 
 ### 📄 Architecture
 - **Power Domains:** `GND`
@@ -35,6 +35,10 @@
 - C7 (1uF)
 - R22 (0R)
 - R23 (0R)
+
+### 📝 Project TODOs
+- TODO: korjaa 52.3k johonkin legittiin arvoon
+- TODO: vaihda global labelit power labeleihin
 
 ### 🧠 Core ICs & Modules
 | Reference | Component | Function / Description |
