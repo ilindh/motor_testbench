@@ -1,0 +1,47 @@
+Qty,Reference,Value,Footprint,Manufacturer_Part_Number,Description
+23,"C1, C5, C8, C9, C10, C11, C19, C21, C22, C23, C24, C25, C27, C28, C41, C43, C46, C47, C49, C50, C53, C61, C63",1uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,CL10B105KB8NQNC,Unpolarized capacitor
+2,"C2, C3",1000uF,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm,,Unpolarized capacitor
+1,C4,100pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+4,"C14, C15, C16, C17",1nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+4,"C18, C20, C35, C36",100nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+1,C26,470uF,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,,Unpolarized capacitor
+5,"C29, C30, C32, C33, C52",10uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+2,"C31, C34",33nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+6,"C37, C38, C39, C42, C45, C48",22uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+8,"C51, C54, C56, C58, C59, C60, C62, C64",2.2uF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+2,"C55, C57",330pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,Unpolarized capacitor
+3,"D1, D2, D3",1.5SMCxxCA,Diode_SMD:D_SMC,,"1500W bidirectional TVS diode, SMC (DO-201AB)"
+1,J1,Conn_01x03_Pin,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,"Generic connector, single row, 01x03, script generated"
+1,J2,Conn_01x18_Pin,Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical,,"Generic connector, single row, 01x18, script generated"
+1,J3,Conn_01x22_Pin,,,"Generic connector, single row, 01x22, script generated"
+1,J4,V_bat_in,custom_footprints:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal_with3DModel,,"Generic connector, single row, 01x02, script generated"
+1,J5,V_bat_out,custom_footprints:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal_with3DModel,,"Generic connector, single row, 01x02, script generated"
+3,"J6, J7, J9",Conn_01x05_Pin,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,,"Generic connector, single row, 01x05, script generated"
+1,J8,Conn_01x04_Pin,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,"Generic connector, single row, 01x04, script generated"
+1,J10,V_bat_secondary,custom_footprints:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal_with3DModel,,"Generic connector, single row, 01x02, script generated"
+3,"J11, J12, J13",Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,"Generic connector, single row, 01x02, script generated"
+1,L1,6.8uH,Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder,,Inductor
+1,L2,12uH,Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder,,Inductor
+1,L3,22uH,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Inductor
+1,MCP33131,,Package_SO:MSOP-10_3x3mm_P0.5mm,,16-bit ADC
+7,"R1, R2, R3, R16, R17, R18, R19",22R,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+1,R6,150k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+1,R7,12k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+4,"R8, R9, R10, R11",1k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+2,"R12, R14",1.5k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+2,"R13, R15",2.2k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+1,R26,52.3k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+2,"R27, R29",10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+1,R28,140k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+1,R30,50,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,Resistor
+1,RFM-0505s,,Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxx_THT,,
+1,U1,ESP32-S3-DevKitC,custom_footprints:ESP32-S3-DevKitC_with_3DModel,,ESP32-S3-DevKitC
+1,U2,~,custom_footprints:ACS37030LLZATR-065B3,,
+1,U3,ACPL-C87A,Package_SO:SSO-8_6.8x5.9mm_P1.27mm_Clearance8mm,,"Precision Optycally Isolated Voltage Sensor, ±1% Gain Tolerance, Bandwidth 100kHz, SSO-8"
+1,U4,MCP6022,Package_SO:TSSOP-8_4.4x3mm_P0.65mm,,"Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+2,"U5, U6",~,Package_SO:MSOP-10_3x3mm_P0.5mm,,16-bit ADC
+2,"U7, U8",TPS62933,Package_TO_SOT_SMD:SOT-583-8,,"3.8-30V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8"
+2,"U9, U10",TPS7A20xxxDQN,Package_TO_SOT_SMD:SOT-23-5_HandSoldering,,"300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+3,"U11, U12, U15",TLV77333PDBVR,Package_TO_SOT_SMD:SOT-23-5,,"300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+1,U13,MCP1501-18xSN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,"1.8V, 0.1%, 20mA, Precision Voltage Reference, SOIC-8"
+1,U14,RFM-0505s1,custom_footprints:Converter_DCDC_TRACO_TBA1-xxxx_THT_with_3DModel,,
