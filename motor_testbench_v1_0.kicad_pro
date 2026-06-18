@@ -551,6 +551,12 @@
         },
         {
           "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -563,12 +569,6 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -577,12 +577,60 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturing_Number",
+          "name": "Manufacturing_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
           "show": false
         }
       ],
@@ -640,11 +688,15 @@
     ],
     [
       "2da1fd24-7545-4e4a-b589-72e0f66a31f4",
-      "Measurements"
+      "Voltage and Current Measurements"
     ],
     [
       "f4ebbd2c-ae23-469d-a040-5f643f36c41b",
       "Power Regulation"
+    ],
+    [
+      "bd55160d-8c4c-42fa-b0ab-c795a19ea32a",
+      "Load Cell Measurement"
     ]
   ],
   "text_variables": {}
