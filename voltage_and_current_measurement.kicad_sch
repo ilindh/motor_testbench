@@ -12906,10 +12906,10 @@
 			(uuid "8417a723-c29e-4f71-8d5a-308b82d23391")
 		)
 		(pin "4"
-			(uuid "745ccca7-c3f9-4692-8806-9764b393c902")
+			(uuid "745ccca7-c3f9-4692-8806-9764b393c904")
 		)
 		(pin "8"
-			(uuid "3c17f699-c605-4f84-b70d-63cf8a5b9b32")
+			(uuid "3c17f699-c605-4f84-b70d-63cf8a5b9b34")
 		)
 		(pin "6"
 			(uuid "12291370-aba2-4299-a1dc-8e02e13410b7")
@@ -15443,28 +15443,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "fcc38626-7989-47fb-95f1-f96bb08a9d4a")
+			(uuid "fcc38626-7989-47fb-95f1-f96bb08a9d4b")
 		)
 		(pin "1"
-			(uuid "7b1fb3f9-0825-41e8-9a96-546a57ed5f64")
+			(uuid "7b1fb3f9-0825-41e8-9a96-546a57ed5f67")
 		)
 		(pin "2"
-			(uuid "ea428aec-ae79-48fb-9f1a-a3e7f5b07bb4")
+			(uuid "ea428aec-ae79-48fb-9f1a-a3e7f5b07bb7")
 		)
 		(pin "5"
-			(uuid "cb347395-f0f1-4810-827a-da051d951082")
+			(uuid "cb347395-f0f1-4810-827a-da051d951083")
 		)
 		(pin "3"
-			(uuid "8417a723-c29e-4f71-8d5a-308b82d23391")
+			(uuid "8417a723-c29e-4f71-8d5a-308b82d23394")
 		)
 		(pin "4"
-			(uuid "745ccca7-c3f9-4692-8806-9764b393c902")
+			(uuid "745ccca7-c3f9-4692-8806-9764b393c905")
 		)
 		(pin "8"
-			(uuid "3c17f699-c605-4f84-b70d-63cf8a5b9b32")
+			(uuid "3c17f699-c605-4f84-b70d-63cf8a5b9b35")
 		)
 		(pin "6"
-			(uuid "0d460e77-cbcd-4637-a5eb-fce08b94fefb")
+			(uuid "0d460e77-cbcd-4637-a5eb-fce08b94fefc")
 		)
 		(instances
 			(project "motor_testbench_v1_0"
@@ -15902,28 +15902,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "fcc38626-7989-47fb-95f1-f96bb08a9d4a")
+			(uuid "fcc38626-7989-47fb-95f1-f96bb08a9d4d")
 		)
 		(pin "1"
-			(uuid "7b1fb3f9-0825-41e8-9a96-546a57ed5f64")
+			(uuid "7b1fb3f9-0825-41e8-9a96-546a57ed5f68")
 		)
 		(pin "2"
-			(uuid "ea428aec-ae79-48fb-9f1a-a3e7f5b07bb4")
+			(uuid "ea428aec-ae79-48fb-9f1a-a3e7f5b07bb8")
 		)
 		(pin "5"
-			(uuid "cb347395-f0f1-4810-827a-da051d951082")
+			(uuid "cb347395-f0f1-4810-827a-da051d951085")
 		)
 		(pin "3"
-			(uuid "8417a723-c29e-4f71-8d5a-308b82d23391")
+			(uuid "8417a723-c29e-4f71-8d5a-308b82d23395")
 		)
 		(pin "4"
-			(uuid "745ccca7-c3f9-4692-8806-9764b393c902")
+			(uuid "745ccca7-c3f9-4692-8806-9764b393c906")
 		)
 		(pin "8"
-			(uuid "3c17f699-c605-4f84-b70d-63cf8a5b9b32")
+			(uuid "3c17f699-c605-4f84-b70d-63cf8a5b9b36")
 		)
 		(pin "6"
-			(uuid "0d460e77-cbcd-4637-a5eb-fce08b94fefb")
+			(uuid "0d460e77-cbcd-4637-a5eb-fce08b94fefe")
 		)
 		(instances
 			(project "motor_testbench_v1_0"
