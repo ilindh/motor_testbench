@@ -10,6 +10,146 @@
 		(rev "1.0")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3447,6 +3587,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 105.41) (xy 160.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5e9ffa-0ac7-4b12-983d-0fa716ae5938")
+	)
+	(wire
+		(pts
 			(xy 160.02 77.47) (xy 179.07 77.47)
 		)
 		(stroke
@@ -4205,7 +4355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06584c76-eddc-4881-b543-7685c3bb425a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 176.53 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4265,7 +4415,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45694096-7970-44de-9654-3feec3b576c6")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 185.42 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4990,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5269,6 +5419,84 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757a031d-8fe4-43a4-b303-12a77dfbb2e5")
+		(property "Reference" "#PWR04"
+			(at 160.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dc57747-00d8-4932-bfab-6ede53953a98")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5889,6 +6117,82 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 154.94 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6c6ca25-39fc-4f61-a2b6-58c34b249399")
+		(property "Reference" "J2"
+			(at 162.306 106.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 150.114 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 154.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 154.94 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec86cc5a-40ec-478f-afbf-9839dd982b58")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
+					(reference "J2")
 					(unit 1)
 				)
 			)
