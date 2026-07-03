@@ -4945,7 +4945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3776340c-1f88-480e-adbf-f8da40394c29")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR07"
 			(at 176.53 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5005,7 +5005,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR0169")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5102,7 +5102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45694096-7970-44de-9654-3feec3b576c6")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 185.42 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5237,7 +5237,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5762,7 +5762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "757a031d-8fe4-43a4-b303-12a77dfbb2e5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 160.02 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5822,7 +5822,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6017,7 +6017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a568ddd-6c2a-4664-bcc7-c5a0bbb245f5")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR04"
 			(at 151.13 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6077,7 +6077,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR0168")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9ba296b-91cf-4e86-afc0-7352b0966b1e")
-		(property "Reference" "J11"
+		(property "Reference" "J3"
 			(at 162.306 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6923,7 +6923,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
