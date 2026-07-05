@@ -2638,7 +2638,7 @@
 		)
 		(uuid "ff25106f-dda7-4793-9cd6-ec8314e64927")
 	)
-	(text "RC Lowpass Resistor.\n330 pF = 423 kHz (@-3dB)\n"
+	(text "RC Lowpass Resistor.\n33 pF = 423 kHz (@-3dB)\n"
 		(exclude_from_sim no)
 		(at 77.47 193.04 0)
 		(effects
@@ -2647,6 +2647,16 @@
 			)
 		)
 		(uuid "08fd0597-6d72-4473-b6e3-1fd26c80f2d5")
+	)
+	(text "TODO: VAIHDA TÄHÄN PAREMPI ANTURI..."
+		(exclude_from_sim no)
+		(at 97.028 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c470042-3924-4bfa-b31c-1d1994514016")
 	)
 	(text "Up to 6S / 26V\n12k/150k*30V -> 2,0 V MAX"
 		(exclude_from_sim no)
@@ -2657,6 +2667,16 @@
 			)
 		)
 		(uuid "0e68898c-b2a5-4f75-952c-dc832d0dd727")
+	)
+	(text "TODO: ETSI PAREMPI YLI 75 dB SNR OPARI TÄHÄN... JOLLA ISOMPI LÄHTÖSWINGI"
+		(exclude_from_sim no)
+		(at 117.856 202.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1419ab75-0353-4dd4-8337-ea564609db9f")
 	)
 	(text "! MAX 100pF Load !"
 		(exclude_from_sim no)
@@ -14736,7 +14756,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 326.39 142.24 0)
+		(at 326.39 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14745,8 +14765,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abd06ba6-e491-431c-bec0-41cb18ff6b3a")
-		(property "Reference" "#PWR048"
-			(at 326.39 146.05 0)
+		(property "Reference" "#PWR047"
+			(at 326.39 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,8 +14776,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V_Vref"
-			(at 320.802 137.668 0)
+		(property "Value" "+SAR_1_5V_Ref"
+			(at 320.802 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14767,7 +14787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 142.24 0)
+			(at 326.39 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,7 +14798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 142.24 0)
+			(at 326.39 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,7 +14809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 326.39 142.24 0)
+			(at 326.39 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14805,7 +14825,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -16353,7 +16373,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330p"
+		(property "Value" "33p"
 			(at 86.868 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18048,7 +18068,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2k"
+		(property "Value" "12k"
 			(at 67.31 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18268,83 +18288,6 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 326.39 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e576ff79-7652-4e38-8c3e-1401c1caa10f")
-		(property "Reference" "#PWR047"
-			(at 326.39 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_Vref"
-			(at 320.802 58.928 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 326.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 326.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "93a19991-bd45-47b4-a00b-3b2172b190c8")
-		)
-		(instances
-			(project "motor_testbench_v1_0"
-				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19471,7 +19414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "150k"
 			(at 67.31 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19536,6 +19479,83 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 326.39 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7bf9dff-8739-441e-bd83-d09df53d30f2")
+		(property "Reference" "#PWR048"
+			(at 326.39 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+SAR_2_5V_Ref"
+			(at 320.802 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 326.39 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a79a3bc-898c-46fe-9afe-e4d26f1cf489")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f/2da1fd24-7545-4e4a-b589-72e0f66a31f4"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
