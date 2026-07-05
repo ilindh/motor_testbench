@@ -5022,7 +5022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20df3454-3f56-4e90-bfbf-2d8b6e15d089")
-		(property "Reference" "H11"
+		(property "Reference" "H10"
 			(at 275.59 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5092,7 +5092,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "H11")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -5767,7 +5767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "493e3450-f57a-43e2-abed-9f6511b094ee")
-		(property "Reference" "H10"
+		(property "Reference" "H9"
 			(at 275.59 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5837,7 +5837,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "H10")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -7361,7 +7361,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d7848067-3818-4730-aacf-767ccbb4b340")
+		(uuid "d78f781c-2445-42bc-9afe-ae9e16a280f0")
 		(property "Reference" "H4"
 			(at 251.46 129.54 0)
 			(show_name no)
@@ -7433,93 +7433,6 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 261.62 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d78f781c-2445-42bc-9afe-ae9e16a280f0")
-		(property "Reference" "H9"
-			(at 264.16 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 264.16 146.0499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 261.62 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 261.62 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing_Number" ""
-			(at 261.62 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor_testbench_v1_0"
-				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "H9")
 					(unit 1)
 				)
 			)
