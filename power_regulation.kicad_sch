@@ -3920,9 +3920,9 @@
 		)
 		(uuid "847874de-7029-46b9-adcd-5d4b12ecc91e")
 	)
-	(text "Startup-sequence (chronological order from top to bottom):\n1. Battery  Starts: +6V_Buck -> +5V5_bus (Always On with Battery) \n2. 5V5_bus  Starts: MCP1502, +1V8_AVDD and +3V3_DIO\n3. 3V3_DIO  Starts: ESP32\n3. 1V8_AVDD Starts: +5V_Ana.\n4. +5V_Ana  Starts: OPA2387's, NCV8184\n5. NCV8184  Starts: Current Sensor, Isolating OpAmp"
+	(text "Startup-sequence (chronological order from top to bottom):\n1. Battery  Starts: +6V_Buck -> +5V5_bus (Always On with Battery) \n2. 5V5_bus  Starts: MCP1502, +1V8_AVDD and +3V3_DIO\n3. 3V3_DIO  Starts: ESP32\n3. 1V8_AVDD Starts: +5V_Ana.\n4. +5V_Ana  Starts: OPA2387's, NCV8184\n5. NCV8184  Starts: Current Sensor, Isolating OpAmp\n\nKORJAA TUO NCV STARTUP SEKVENSSI !!!!!!!!!"
 		(exclude_from_sim no)
-		(at 123.19 -28.448 0)
+		(at 124.714 -33.782 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -4143,7 +4143,7 @@
 	)
 	(text "TODO: TOTEUTA ANTUREIDEN POWER SEQUENCE !!!!"
 		(exclude_from_sim no)
-		(at 450.088 176.022 0)
+		(at 366.268 -14.478 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4339,7 +4339,7 @@
 		(uuid "46bfeba2-2aa5-4e93-8516-f82c9bcbacb0")
 	)
 	(junction
-		(at 449.58 162.56)
+		(at 365.76 -27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4985523d-aeff-424e-a46c-400b57f31697")
@@ -6993,7 +6993,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 153.67) (xy 449.58 162.56)
+			(xy 365.76 -36.83) (xy 365.76 -27.94)
 		)
 		(stroke
 			(width 0)
@@ -7265,7 +7265,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 144.78) (xy 449.58 146.05)
+			(xy 365.76 -45.72) (xy 365.76 -44.45)
 		)
 		(stroke
 			(width 0)
@@ -7648,7 +7648,7 @@
 	)
 	(wire
 		(pts
-			(xy 449.58 162.56) (xy 455.93 162.56)
+			(xy 365.76 -27.94) (xy 372.11 -27.94)
 		)
 		(stroke
 			(width 0)
@@ -10649,7 +10649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dd8d50f-718a-4caf-8277-1edd0d53c59d")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 58.674 251.968 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,7 +10717,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11742,7 +11742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "164ef770-45ff-44ec-9ce3-a03ced16ec3d")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR082"
 			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11802,7 +11802,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR081")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -12348,7 +12348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 449.58 170.18 0)
+		(at 365.76 -20.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12358,7 +12358,7 @@
 		(dnp no)
 		(uuid "199d8581-f026-4bc4-aba4-66b63e944820")
 		(property "Reference" "#PWR0197"
-			(at 449.58 176.53 0)
+			(at 365.76 -13.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12369,7 +12369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 449.326 174.498 0)
+			(at 365.506 -16.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12380,7 +12380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.58 170.18 0)
+			(at 365.76 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12391,7 +12391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 170.18 0)
+			(at 365.76 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12402,7 +12402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 449.58 170.18 0)
+			(at 365.76 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12504,7 +12504,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 449.58 144.78 0)
+		(at 365.76 -45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12514,7 +12514,7 @@
 		(dnp no)
 		(uuid "1cb0e9fc-72c2-4528-b5af-6f89e38b1671")
 		(property "Reference" "#PWR0196"
-			(at 449.58 148.59 0)
+			(at 365.76 -41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12525,7 +12525,7 @@
 			)
 		)
 		(property "Value" "+5V_Ana"
-			(at 454.914 143.256 0)
+			(at 371.094 -47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12535,7 +12535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 449.58 144.78 0)
+			(at 365.76 -45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12546,7 +12546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 144.78 0)
+			(at 365.76 -45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12557,7 +12557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 449.58 144.78 0)
+			(at 365.76 -45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13441,7 +13441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a169761-5c34-45ce-92d8-a336c8a43565")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR083"
 			(at 54.61 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13502,7 +13502,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR082")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -15593,7 +15593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52602a5c-ba59-4ccc-8148-33541263f700")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR087"
 			(at 62.23 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15654,7 +15654,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR086")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -17550,7 +17550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66adcf11-c592-41f1-a511-998130b524c5")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR081"
 			(at 52.07 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -17611,7 +17611,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR087")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -22768,7 +22768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b69baf-0f9a-4171-b6bc-d621fe1e42c5")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR084"
 			(at 58.42 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -22829,7 +22829,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -23114,7 +23114,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a921fc45-9d9f-439d-9685-fe70b3cd8b72")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR086"
 			(at 60.96 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -23175,7 +23175,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR085")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -23367,7 +23367,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 449.58 166.37 180)
+		(at 365.76 -24.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23377,7 +23377,7 @@
 		(dnp no)
 		(uuid "ac80039c-2c89-45d4-9c81-4f0051af9e24")
 		(property "Reference" "C113"
-			(at 447.04 164.084 0)
+			(at 363.22 -26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23388,7 +23388,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 447.04 161.798 0)
+			(at 363.22 -28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23399,7 +23399,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 448.6148 162.56 0)
+			(at 364.7948 -27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23410,7 +23410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 166.37 0)
+			(at 365.76 -24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23421,7 +23421,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 449.58 166.37 0)
+			(at 365.76 -24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23432,7 +23432,7 @@
 			)
 		)
 		(property "Manufacturing_Number" ""
-			(at 449.58 166.37 0)
+			(at 365.76 -24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26362,7 +26362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf8f8357-e967-4d1e-b7f4-c5f5c78410d8")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR085"
 			(at 60.96 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -26423,7 +26423,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f/f4ebbd2c-ae23-469d-a040-5f643f36c41b"
-					(reference "#PWR084")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -29428,7 +29428,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 449.58 149.86 0)
+		(at 365.76 -40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29438,7 +29438,7 @@
 		(dnp no)
 		(uuid "f26add38-542d-458a-8334-b3a5e842cf04")
 		(property "Reference" "R45"
-			(at 436.372 147.8281 0)
+			(at 352.552 -42.6719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29449,7 +29449,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 436.372 150.3681 0)
+			(at 352.552 -40.1319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29460,7 +29460,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 447.802 149.86 90)
+			(at 363.982 -40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29471,7 +29471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 449.58 149.86 0)
+			(at 365.76 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29482,7 +29482,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 449.58 149.86 0)
+			(at 365.76 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29493,7 +29493,7 @@
 			)
 		)
 		(property "Manufacturing_Number" ""
-			(at 449.58 149.86 0)
+			(at 365.76 -40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
