@@ -1,0 +1,10 @@
+(version 1)
+
+(rule "ESP USB Dimensions"
+    (constraint track_width (opt 0.1384mm))
+    (constraint diff_pair_gap (opt 0.2032mm))
+    (condition "A.NetName == '/ESP_USB_D*' && (A.Layer == 'F.Cu' || A.Layer == 'B.Cu')"))
+
+(rule "ESP USB 5W Zone Clearance"
+    (constraint clearance (min 0.692mm))
+    (condition "A.NetName == '/ESP_USB_D*' && B.Type == 'Zone'"))
