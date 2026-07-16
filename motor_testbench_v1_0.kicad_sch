@@ -4319,16 +4319,6 @@
 		)
 		(uuid "19118adc-e30a-478c-bd24-8e2ecfaa36e3")
 	)
-	(text "POISTA TAI TEE JOTAIN MCLK:LLE, EI VARMAAN TARVITA / EI VOI LAITTAA GPIO 45!"
-		(exclude_from_sim no)
-		(at 152.4 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "24160828-bd35-4ea0-8cd8-6045dd9d4b92")
-	)
 	(text "Mechanical Mounting"
 		(exclude_from_sim no)
 		(at 241.554 124.46 0)
