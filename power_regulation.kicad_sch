@@ -4112,7 +4112,7 @@
 		)
 		(uuid "847874de-7029-46b9-adcd-5d4b12ecc91e")
 	)
-	(text "Startup-sequence (chronological order from top to bottom):\n1. Battery  Starts: +6V_Buck -> +5V5_bus (Always On with Battery) \n2. 5V5_bus  Starts: MCP1502, +1V8_AVDD and +3V3_DIO\n3. 3V3_DIO  Starts: ESP32\n3. 1V8_AVDD Starts: +5V_Ana.\n4. +5V_Ana  Starts: OPA2387's, NCV8184\n5. NCV8184  Starts: Current Sensor, Isolating OpAmp\n\nKORJAA TUO NCV STARTUP SEKVENSSI !!!!!!!!!"
+	(text "Startup-sequence (chronological order from top to bottom):\n1. Battery    Starts: +6V_Buck -> +5V5_bus (Always On with Battery) \n2. 5V5_bus    Starts: MCP1502, +1V8_AVDD and +3V3_DIO\n3.1 3V3_DIO   Starts: ESP32\n3.2 1V8_AVDD  Starts: +5V_Ana.\n4.1 3V3_ESP32 Starts: Sensors\n4.2 +5V_Ana   Starts: OPA2387's, NCV8184\n"
 		(exclude_from_sim no)
 		(at 124.714 -33.782 0)
 		(effects
@@ -4711,12 +4711,6 @@
 		(uuid "88a9317f-a92f-4b50-bc1d-f1ad0aa08fef")
 	)
 	(junction
-		(at 187.96 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "894f3974-dc39-4dfc-9c11-58b2057be03f")
-	)
-	(junction
 		(at 162.56 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5003,12 +4997,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fda816ea-300e-4ee1-8593-3c57a751976a")
-	)
-	(junction
-		(at 187.96 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdd4a8c5-6df6-45c0-b2ae-e722b9c2fd04")
 	)
 	(junction
 		(at 302.26 228.6)
@@ -6538,16 +6526,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a20d5e8-a2db-4392-89be-5a2e0dd2d115")
-	)
-	(wire
-		(pts
 			(xy 62.23 57.15) (xy 62.23 59.69)
 		)
 		(stroke
@@ -7510,16 +7488,6 @@
 			(type default)
 		)
 		(uuid "92d38b98-40ae-40e8-9e4f-3577c439ac0d")
-	)
-	(wire
-		(pts
-			(xy 190.5 101.6) (xy 190.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934ee2c0-454a-491d-ae34-ad266dbf3129")
 	)
 	(wire
 		(pts
@@ -8902,16 +8870,6 @@
 			(type default)
 		)
 		(uuid "dce5a433-16f6-4c6d-9d44-1a32dc8a7629")
-	)
-	(wire
-		(pts
-			(xy 187.96 104.14) (xy 190.5 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6a333e-2e3c-4b07-9d02-1ab1505a6747")
 	)
 	(wire
 		(pts
