@@ -2037,7 +2037,7 @@
 	)
 	(text "Load Cell ADC "
 		(exclude_from_sim no)
-		(at 204.47 38.608 0)
+		(at 251.968 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
