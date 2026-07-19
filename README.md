@@ -16,16 +16,16 @@
 | **Board Dimensions** | 99.5 x 79.51 mm |
 | **Total Area** | 7910.75 mm² |
 | **Layer Count** | 4 Copper Layers |
-| **Total Components** | 296 |
+| **Total Components** | 289 |
 | **SMD Components** | 242 |
-| **THT Components** | 12 |
-| **Unique Parts** | 75 |
+| **THT Components** | 8 |
+| **Unique Parts** | 71 |
 | **KiCad Version** | 10.0.4 |
 
 ### 📐 Manufacturing & DRC
 | Metric | Value |
 | :--- | :--- |
-| **Vias** | 576 Total (576 TH, 0 Blind, 0 Micro) |
+| **Vias** | 1294 Total (1294 TH, 0 Blind, 0 Micro) |
 
 ### 📄 Architecture
 - **Digital Buses:** `ESP_UART_RX, ESP_UART_TX, ESP_USB_D+, ESP_USB_D-`
@@ -35,28 +35,23 @@
 - **Mounting Holes:** 12 (H11 (MountingHole_2.2mm_M2_DIN965), H12 (MountingHole_2.2mm_M2_DIN965), H10 (MountingHole_2.2mm_M2_DIN965), H7 (MountingHole_2.2mm_M2_DIN965), H1 (MountingHole_2.2mm_M2_DIN965), H8 (MountingHole_2.2mm_M2_DIN965), H6 (MountingHole_2.2mm_M2_DIN965), H2 (MountingHole_2.2mm_M2_DIN965), H5 (MountingHole_2.2mm_M2_DIN965), H4 (MountingHole_2.2mm_M2_DIN965), H3 (MountingHole_2.2mm_M2_DIN965), H9 (MountingHole_2.2mm_M2_DIN965))
 
 ### 🚫 Do Not Populate (DNP)
-- C103 (100p)
-- C104 (22u)
-- C105 (22u)
-- C109 (1u)
-- C131 (1u)
-- C134 (1u)
-- C14 (1000u)
-- C15 (1000u)
-- C16 (1000u)
-- C17 (1000u)
-- C66 (1u)
+- C103 (1u)
+- C124 (1u)
+- C59 (1u)
+- C7 (1u)
+- C97 (100p)
+- C98 (22u)
+- C99 (22u)
 - IC2 (VIA2000SD)
-- R15 (22R)
-- R39 (R)
+- R18 (22R)
 - R40 (R)
-- R57 (220R)
-- R58 (220R)
+- R41 (R)
 - R59 (220R)
-- R71 (10k)
+- R60 (220R)
+- R61 (220R)
 - R72 (10k)
-- R74 (22R)
-- U16 (TLV75733PDYDR)
+- R73 (10k)
+- R8 (22R)
 
 ### 📝 Project TODOs
 - TODO: Check Min / Max stable capacitances for the LDOS
@@ -69,28 +64,26 @@
 ### 🧠 Core ICs & Modules
 | Reference | Component | Function / Description |
 | :--- | :--- | :--- |
-| IC5 | [MCP3564RT-E_ST](https://octopart.com/search?q=MCP3564RT-E/ST) | Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Quad channel, 3V |
+| IC6 | [MCP3564RT-E_ST](https://octopart.com/search?q=MCP3564RT-E/ST) | Analog to Digital Converters - ADC 24-bit delta-sigma ADC w/Vref, Quad channel, 3V |
 | IC1 | [PJA3402_R1_00001](https://octopart.com/search?q=PJA3402_R1_00001) | MOSFETs 30V N-Channel Enhancement Mode MOSFET |
 | U1 | ESP32-S3-WROOM-1 | RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD |
-| U21 | OPA310SxDBV | Single Rail-to-Rail Input/Output Operational Amplifier with Shutdown, 1.5..5.5V supply, 3MHz GBW, 250uV offset voltage, 150mA output current, SOT-23-6 |
-| U2 | AP7361C-33E | 1A Low Dropout regulator, positive, 3.3V fixed output, SOT89-5 |
+| U2 | OPA310SxDBV | Single Rail-to-Rail Input/Output Operational Amplifier with Shutdown, 1.5..5.5V supply, 3MHz GBW, 250uV offset voltage, 150mA output current, SOT-23-6 |
 | U8 | TPS62933 | 3.8-30V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8 |
+| IC4 | [AP7361C-33Y5-13](https://octopart.com/search?q=AP7361C-33Y5-13) | DIODES INC. - AP7361C-33Y5-13 - LDO, FIXED, 3.3V, 1A, -40 TO 85DEG C |
 | U10 | OPA2387DR | Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8 |
 | IC3 | [NCV8184DR2G](https://octopart.com/search?q=NCV8184DR2G) | 70 mA Source Capability; Output Tracks within +/- 3m V; Low Input Voltage Tracking Performance (Works Down to Vref = 2.0 V); Low Dropout (0.35 V Typ.@50 mA); Low Quiescent Current; Thermal Shutdown; AEC Qualified; PPAP Capable |
-| U15 | TPS7A2018PDBVRG4 | TPS7A2018PDBVRG4 |
+| U14 | TPS7A2018PDBVRG4 | TPS7A2018PDBVRG4 |
 | U9 | TPS62933 | 3.8-30V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8 |
-| U20 | TPS7A2045PDBVR | TPS7A2045PDBVR |
-| IC4 | [MIE1W0505BGLVH-3R-P](https://octopart.com/search?q=MIE1W0505BGLVH-3R-P) | Isolated DC/DC Converters - SMD Next gen ultra small size isolated power module |
+| U18 | TPS7A2045PDBVR | TPS7A2045PDBVR |
+| IC5 | [MIE1W0505BGLVH-3R-P](https://octopart.com/search?q=MIE1W0505BGLVH-3R-P) | Isolated DC/DC Converters - SMD Next gen ultra small size isolated power module |
 | U7 | MCP1502T-50E/CHY | Voltage References 50 ppm 0.1% Voltage Reference |
-| U16 | TLV75733PDYDR | TLV75733PDYDR |
 | U11 | TPS7A2055PDBVR | TPS7A2055PDBVR |
-| U18 | TPS7A2055PDBVR | TPS7A2055PDBVR |
-| U17 | TPS7A2050PDBVR | TPS7A2050PDBVR |
-| U14 | TPS7A2033PDBVR | TPS7A2033PDBVR |
-| U19 | TPS7A2033PDBVR | TPS7A2033PDBVR |
-| U12 | AP7361C-33Y5-13 | 1A Low Dropout regulator, positive, 3.3V fixed output, SOT89-5 |
-| U13 | TPS7A2050PDBVR | TPS7A2050PDBVR |
-| U3 | [CZ3A05](https://octopart.com/search?q=CZ3A05) | Current Sensor 64.5A 1 Channel Hall Effect, Open Loop Bidirectional 16-PowerSOIC (0.303\ |
+| U16 | TPS7A2055PDBVR | TPS7A2055PDBVR |
+| U15 | TPS7A2050PDBVR | TPS7A2050PDBVR |
+| U13 | TPS7A2033PDBVR | TPS7A2033PDBVR |
+| U17 | TPS7A2033PDBVR | TPS7A2033PDBVR |
+| U12 | TPS7A2050PDBVR | TPS7A2050PDBVR |
+| U3 | [CZ3723](https://octopart.com/search?q=CZ3A05) | Board Mount Current Sensors 60A Precise unipolar Coreless Current Sensor w/UL61800 |
 | U6 | OPA2328DR | Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8 |
 | U4 | AMC1351DWV | Precision Reinforced Isolated Amplifier, 5V Input, 300 kHz Bandwidth, 0.4V/V, 0.2% Gain Tolerance, Differential Output, SOIC-8 |
 | U5 | OPA2328DR | Precision Amplifiers Dual-channel precis ion 50-uV offset vo |
@@ -99,20 +92,20 @@
 ### 🔌 Connectors & Interfaces
 | Reference | Type | Component | Description |
 | :--- | :--- | :--- | :--- |
-| J11 | Connector | Conn_01x04_Pin | Generic connector, single row, 01x04, script generated |
+| J9 | Connector | Conn_01x04_Pin | Generic connector, single row, 01x04, script generated |
 | J2 | Connector | Conn_02x08_Odd_Even | Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) |
 | J1 | Connector | USB_C_Receptacle_USB2.0_16P | USB 2.0-only 16P Type-C Receptacle connector |
-| J10 | Connector | Conn_01x02_Pin | Generic connector, single row, 01x02, script generated |
 | J8 | Connector | Conn_01x02_Pin | Generic connector, single row, 01x02, script generated |
-| J9 | Connector | Conn_01x02_Pin | Generic connector, single row, 01x02, script generated |
-| J7 | Connector | V_bat_secondary | Generic connector, single row, 01x02, script generated |
-| J6 | Connector | V_bat_out | Generic connector, single row, 01x02, script generated |
-| J5 | Connector | V_bat_in | Generic connector, single row, 01x02, script generated |
+| J6 | Connector | Conn_01x02_Pin | Generic connector, single row, 01x02, script generated |
+| J7 | Connector | Conn_01x02_Pin | Generic connector, single row, 01x02, script generated |
+| J5 | Connector | V_bat_secondary | Generic connector, single row, 01x02, script generated |
+| J4 | Connector | [XT60PW-M](https://octopart.com/search?q=XT60PW-M) | Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A |
+| J3 | Connector | [XT60PW-M](https://octopart.com/search?q=XT60PW-M) | Connector: DC supply; socket; XT60; male; PIN: 2; on PCBs; THT; 30A |
 
 ### 📏 Passive Components
 | Component | Breakdown |
 | :--- | :--- |
-| Capacitor | 115x0603, 8x1206 and 5xOther |
+| Capacitor | 115x0603, 8x1206 and 1xOther |
 | Diode | 2x0402, 2x0603 and 6xOther |
 | Inductor | 1x1206 |
 | Resistor | 73x0603 |
