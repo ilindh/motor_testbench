@@ -4360,7 +4360,7 @@
 		(uuid "c7fa06f9-7478-419c-bd69-3e885c8559c6")
 	)
 	(junction
-		(at 179.07 190.5)
+		(at 175.26 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05b2b93a-25a2-4dda-8c07-0fb36e158959")
@@ -4372,16 +4372,16 @@
 		(uuid "0632d732-389a-4843-9d6e-3b17ee6d73c8")
 	)
 	(junction
+		(at 166.37 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16045966-eea6-4f6f-8d9a-4e07671ca649")
+	)
+	(junction
 		(at 59.69 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23150f43-ce4e-427b-83b9-1ba248c89fc3")
-	)
-	(junction
-		(at 220.98 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23216045-d23d-4de5-b907-7f6005c6e6f9")
 	)
 	(junction
 		(at 190.5 43.18)
@@ -4805,6 +4805,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 193.04) (xy 175.26 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3425eaa5-b967-47f7-8354-3dac8b8f64e9")
+	)
+	(wire
+		(pts
 			(xy 49.53 166.37) (xy 55.88 166.37)
 		)
 		(stroke
@@ -5115,16 +5125,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 203.2) (xy 220.98 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585566c2-9000-4f48-b36e-cf640e3d17b6")
-	)
-	(wire
-		(pts
 			(xy 240.03 45.72) (xy 240.03 36.83)
 		)
 		(stroke
@@ -5192,16 +5192,6 @@
 			(type default)
 		)
 		(uuid "62b93572-c69d-4962-b622-9192a372eef0")
-	)
-	(wire
-		(pts
-			(xy 200.66 193.04) (xy 200.66 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c930d4-9aa9-4a8a-ad38-ab58db2860d8")
 	)
 	(wire
 		(pts
@@ -5675,16 +5665,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 193.04) (xy 200.66 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94394b0-2070-4745-8b12-5c44edb734b2")
-	)
-	(wire
-		(pts
 			(xy 220.98 210.82) (xy 217.17 210.82)
 		)
 		(stroke
@@ -5702,6 +5682,16 @@
 			(type default)
 		)
 		(uuid "af07fdd0-d78d-4a99-b27a-da2ea07afe3e")
+	)
+	(wire
+		(pts
+			(xy 166.37 190.5) (xy 166.37 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ab814c-9927-456b-96b5-ff4a79fdc727")
 	)
 	(wire
 		(pts
@@ -5915,7 +5905,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 190.5) (xy 179.07 190.5)
+			(xy 175.26 193.04) (xy 204.47 193.04)
 		)
 		(stroke
 			(width 0)
@@ -5945,7 +5935,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 203.2) (xy 220.98 203.2)
+			(xy 217.17 203.2) (xy 224.79 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6035,6 +6025,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 190.5) (xy 175.26 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaac9368-eba6-4627-9a72-6b6249fe9aa4")
+	)
+	(wire
+		(pts
 			(xy 231.14 180.34) (xy 227.33 180.34)
 		)
 		(stroke
@@ -6042,6 +6042,16 @@
 			(type default)
 		)
 		(uuid "eac7c8b1-56ca-4311-b6d5-113a175aa7a1")
+	)
+	(wire
+		(pts
+			(xy 166.37 195.58) (xy 166.37 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb03b017-a9db-436d-b97e-8905f421fddf")
 	)
 	(wire
 		(pts
@@ -6135,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 195.58) (xy 175.26 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9adf451-2052-49a0-bbb3-286aad4f5d69")
+	)
+	(wire
+		(pts
 			(xy 114.3 120.65) (xy 111.76 120.65)
 		)
 		(stroke
@@ -6162,6 +6182,16 @@
 			(type default)
 		)
 		(uuid "fe585d87-baa8-40a7-a895-4c0cc947fd7e")
+	)
+	(label "3V3_ESP"
+		(at 224.79 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06a34667-20a3-4146-bfe5-c715f4cc15e4")
 	)
 	(label "ESP_GPIO2"
 		(at 224.79 193.04 0)
@@ -6532,6 +6562,16 @@
 			(justify right bottom)
 		)
 		(uuid "b8204ca4-2f29-4499-abfb-36b0f69baef7")
+	)
+	(label "3V3_ESP"
+		(at 177.8 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b93333d5-a3a3-49a2-be8a-e1072f285522")
 	)
 	(label "ESP_GPIO42"
 		(at 114.3 156.21 0)
@@ -7131,7 +7171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06584c76-eddc-4881-b543-7685c3bb425a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 264.16 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7191,7 +7231,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7379,7 +7419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13b3e542-9a13-4fe9-b9bd-a8b101e95247")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 227.33 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7440,7 +7480,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7480,7 +7520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 295.91 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -7544,7 +7584,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20ebe0b0-3628-46d7-a40e-26faa10cdc56")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 280.67 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7604,7 +7644,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7621,7 +7661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2402eede-ad4b-41c0-af59-e57ab93017c2")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 280.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7681,7 +7721,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7791,7 +7831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25c53ff9-c133-470c-aa32-c12cf7d2d750")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 200.66 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7852,7 +7892,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8120,7 +8160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b98ad15-399f-4348-b68a-2ad372c77d4a")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 217.17 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8180,7 +8220,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8197,7 +8237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "370230d3-dc94-4cd5-b903-cbced0995ed9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 223.52 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8297,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8274,7 +8314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39f8a9f3-fae1-4d34-a329-7f7513e49983")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 283.464 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,7 +8389,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8639,7 +8679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e7283d-1123-4fed-8f29-7148d9c1f9a6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 217.17 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8700,94 +8740,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 295.91 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44285070-037d-46d2-8b55-d4a6a3b6b7ea")
-		(property "Reference" "H12"
-			(at 298.45 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 298.45 209.5499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 295.91 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 295.91 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 295.91 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing_Number" ""
-			(at 295.91 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor_testbench_v1_0"
-				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "H12")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8907,7 +8860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P240X110-3N"
+		(property "Footprint" "SamacSys_Parts:SOT95P240X110-3N"
 			(at 122.25 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9078,7 +9031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 295.91 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9245,7 +9198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 284.48 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568c49fe-1a1e-419b-ba43-2accbef971b9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 217.17 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9462,7 +9415,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9480,7 +9433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58b8adb2-09be-4176-beab-516ee5f82305")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 280.67 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9541,7 +9494,84 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR034")
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 166.37 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "601f0457-df1d-4e0b-9b16-1cb3cef6b2a5")
+		(property "Reference" "#PWR08"
+			(at 166.37 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_ESP"
+			(at 161.036 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 166.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cefc7913-52d1-4b55-a81e-2c7eed73b665")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9558,7 +9588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64a8b891-e394-4235-9a25-53b6c690a99e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 227.33 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -9619,7 +9649,99 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR025")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bb0ea7a-c0b7-4b10-8022-2ab6542c881b")
+		(property "Reference" "C3"
+			(at 169.164 197.612 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 169.164 200.152 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 167.3352 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing_Number" ""
+			(at 166.37 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "533d3aaf-fbcf-49bc-9560-2758d05c625f")
+		)
+		(pin "1"
+			(uuid "9fd3741c-0f73-4afc-a694-d00f00c23d68")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9659,7 +9781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 257.81 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10092,7 +10214,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 190.5 0)
+		(at 175.26 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10101,8 +10223,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "781d61c7-d5a3-4edb-8e62-4bdd08028389")
-		(property "Reference" "#PWR08"
-			(at 179.07 194.31 0)
+		(property "Reference" "#PWR010"
+			(at 175.26 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10113,7 +10235,7 @@
 			)
 		)
 		(property "Value" "+3V3_ESP"
-			(at 185.42 189.23 0)
+			(at 180.848 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10123,7 +10245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 190.5 0)
+			(at 175.26 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10134,7 +10256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 190.5 0)
+			(at 175.26 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10145,7 +10267,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 190.5 0)
+			(at 175.26 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10161,7 +10283,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10255,7 +10377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78eaf172-51e8-4c0b-b16f-6650f182953f")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 190.5 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10315,7 +10437,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10332,7 +10454,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a9e5d1e-a201-4c6a-bd4e-32b2c5025b57")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 217.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10392,7 +10514,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10566,7 +10688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8605067f-4af9-4dc0-a1e0-f453e0ff04f1")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 283.464 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10641,7 +10763,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10658,7 +10780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90cc49ee-b7a2-4d69-9c0d-5205ea7c2b31")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 184.15 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -10719,7 +10841,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10759,7 +10881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 284.48 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10823,7 +10945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93fde621-799a-42f3-a211-4d97c3b91433")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 191.77 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -10884,7 +11006,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10902,7 +11024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9448abf1-fa97-4e93-a8c1-ff3bf82fa87c")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 280.67 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10963,7 +11085,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11060,7 +11182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97fd3690-bc92-4af2-9002-38b5be0aa176")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 223.52 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11121,7 +11243,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11138,7 +11260,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "982630d0-6229-481d-acc6-09969af542b0")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 233.934 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11213,7 +11335,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11310,7 +11432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a568ddd-6c2a-4664-bcc7-c5a0bbb245f5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 264.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11370,7 +11492,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -11388,7 +11510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aafe098-c1a1-4d19-bb21-c1d7d6e31f37")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 231.14 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +11571,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11601,7 +11723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 271.78 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -11665,7 +11787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a18edfc3-2f28-4631-ae66-3068a745133c")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 226.314 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11740,7 +11862,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11871,7 +11993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 257.81 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12105,7 +12227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0b21048-6b58-49df-b54c-1dd2e6c00971")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 200.66 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12166,7 +12288,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12367,6 +12489,85 @@
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b650680c-f756-4db0-8b88-39185f3c0963")
+		(property "Reference" "#PWR09"
+			(at 166.37 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6c76ccb-b949-4eb6-af8c-84395c6c509f")
+		)
+		(instances
+			(project "motor_testbench_v1_0"
+				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12654,7 +12855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 271.78 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12844,7 +13045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4887661-dd74-49ea-a77f-3d9cb8d677ce")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 262.89 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12904,7 +13105,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12922,7 +13123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c93fe9ab-cca2-4d25-80d5-6afcc05f640d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 240.03 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12983,7 +13184,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13079,7 +13280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce1be677-43df-47fa-aea4-8521376baf99")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 242.824 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13101,7 +13302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 240.9952 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13154,7 +13355,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13171,7 +13372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfe93adc-6ee5-46af-9413-d4bf68a88389")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 223.52 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -13232,7 +13433,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13249,7 +13450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2e50283-f3db-449d-b051-c2f9a81c034c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR035"
 			(at 280.67 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13309,7 +13510,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR033")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -13327,7 +13528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51b2ec2-dac8-4bf0-bd2e-fe7cd4ccd759")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 280.67 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13388,7 +13589,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13428,7 +13629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 271.78 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13608,7 +13809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 257.81 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -13764,7 +13965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db63c334-7187-45a2-9bbb-1222f8111bb0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 223.52 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -13825,7 +14026,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14045,7 +14246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09b43e8-2871-4725-bca5-0cd3023f825c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 229.87 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -14106,7 +14307,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14123,7 +14324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e59d7279-5eb9-466c-8aec-e50971516d1a")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 283.464 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14198,94 +14399,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 284.48 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea1e30b5-757b-4ad2-89a8-b8bcc326b12e")
-		(property "Reference" "H9"
-			(at 287.02 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 287.02 209.5499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
-			(at 284.48 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 284.48 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing_Number" ""
-			(at 284.48 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "motor_testbench_v1_0"
-				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "H9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -14671,7 +14785,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f23096e4-22b6-4bb5-8bf8-2d716c83d6b5")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 232.664 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14746,7 +14860,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14846,7 +14960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 198.12 0)
+		(at 175.26 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14856,8 +14970,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f27b2b71-be0c-4134-8133-37e1c74989d5")
-		(property "Reference" "#PWR09"
-			(at 179.07 204.47 0)
+		(property "Reference" "#PWR011"
+			(at 175.26 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14868,7 +14982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 203.2 0)
+			(at 175.26 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14879,7 +14993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 198.12 0)
+			(at 175.26 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14890,7 +15004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 198.12 0)
+			(at 175.26 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14901,7 +15015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 198.12 0)
+			(at 175.26 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14917,7 +15031,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14934,7 +15048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa3167ca-4ee2-4248-921c-bff0edd01014")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 229.87 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14995,7 +15109,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15283,7 +15397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbe14dbf-d780-492f-9fa0-e6cd0d94fd99")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 190.5 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15344,7 +15458,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15361,7 +15475,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcbed839-aa41-4cbd-8431-0fb8402d8b04")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 203.454 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15383,7 +15497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 201.6252 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15436,7 +15550,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15444,7 +15558,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 179.07 194.31 0)
+		(at 175.26 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15453,8 +15567,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd975bce-9cb4-472e-8e91-97b691f4ab2c")
-		(property "Reference" "C3"
-			(at 181.864 193.04 0)
+		(property "Reference" "C4"
+			(at 178.054 197.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15465,7 +15579,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 181.864 195.58 0)
+			(at 178.054 200.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15476,7 +15590,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 180.0352 198.12 0)
+			(at 176.2252 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15487,7 +15601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 194.31 0)
+			(at 175.26 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15498,7 +15612,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 179.07 194.31 0)
+			(at 175.26 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15509,7 +15623,7 @@
 			)
 		)
 		(property "Manufacturing_Number" ""
-			(at 179.07 194.31 0)
+			(at 175.26 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15528,7 +15642,7 @@
 		(instances
 			(project "motor_testbench_v1_0"
 				(path "/da638649-102c-44f9-b928-e91cd399cc2f"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
