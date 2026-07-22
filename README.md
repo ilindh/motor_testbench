@@ -1,6 +1,5 @@
 <!-- KICAD_DIFF_GEN_START -->
-<p align="center"><img src="docs/motor_testbench_v1_0_top.png" width="500"><br><b>Top</b></p>
-<p align="center"><img src="docs/motor_testbench_v1_0_bottom.png" width="500"><br><b>Bottom</b></p>
+<p align="center"><img src="docs/motor_testbench_v1_0_top_dimensioned.png" width="500"><br><b>Dimensions</b></p>
 
 <p align="center"><img src="docs/motor_testbench_v1_0.svg" width="700"><br><b>Schematic — Page 1</b></p>
 <p align="center"><img src="docs/motor_testbench_v1_0-Power Regulation.svg" width="700"><br><b>Power Regulation — Page 2</b></p>
