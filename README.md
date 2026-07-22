@@ -1,10 +1,12 @@
 <!-- KICAD_DIFF_GEN_START -->
+<p align="center"><img src="docs/motor_testbench_v1_0_top.png" width="500"><br><b>Top</b></p>
+<p align="center"><img src="docs/motor_testbench_v1_0_bottom.png" width="500"><br><b>Bottom</b></p>
 <p align="center"><img src="docs/motor_testbench_v1_0_top_dimensioned.png" width="500"><br><b>Dimensions</b></p>
 
 <p align="center"><img src="docs/motor_testbench_v1_0.svg" width="700"><br><b>Schematic — Page 1</b></p>
-<p align="center"><img src="docs/motor_testbench_v1_0-Power Regulation.svg" width="700"><br><b>Power Regulation — Page 2</b></p>
-<p align="center"><img src="docs/motor_testbench_v1_0-Voltage and Current Measurements.svg" width="700"><br><b>Voltage And Current Measurements — Page 3</b></p>
-<p align="center"><img src="docs/motor_testbench_v1_0-Load Cell and Temperature Measurements.svg" width="700"><br><b>Load Cell And Temperature Measurements — Page 4</b></p>
+<p align="center"><img src="docs/motor_testbench_v1_0-Load Cell and Temperature Measurements.svg" width="700"><br><b>Load Cell And Temperature Measurements — Page 2</b></p>
+<p align="center"><img src="docs/motor_testbench_v1_0-Power Regulation.svg" width="700"><br><b>Power Regulation — Page 3</b></p>
+<p align="center"><img src="docs/motor_testbench_v1_0-Voltage and Current Measurements.svg" width="700"><br><b>Voltage And Current Measurements — Page 4</b></p>
 
 ---
 ## 🛠 Technical Hardware Summary
@@ -20,7 +22,7 @@
 | **SMD Components** | 244 |
 | **THT Components** | 9 |
 | **Unique Parts** | 72 |
-| **DRC Status** | ⚠️ 27 Errors, 106 Warnings |
+| **DRC Status** | ⚠️ 26 Errors, 106 Warnings |
 | **KiCad Version** | 10.0.4 |
 
 ### 📐 Manufacturing & DRC
@@ -72,17 +74,17 @@
 | IC4 | [AP7361C-33Y5-13](https://componentsearchengine.com/search.html?searchString=AP7361C-33Y5-13) | DIODES INC. - AP7361C-33Y5-13 - LDO, FIXED, 3.3V, 1A, -40 TO 85DEG C |
 | U10 | OPA2387DR | Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8 |
 | IC3 | [NCV8184DR2G](https://componentsearchengine.com/search.html?searchString=NCV8184DR2G) | 70 mA Source Capability; Output Tracks within +/- 3m V; Low Input Voltage Tracking Performance (Works Down to Vref = 2.0 V); Low Dropout (0.35 V Typ.@50 mA); Low Quiescent Current; Thermal Shutdown; AEC Qualified; PPAP Capable |
-| U14 | TPS7A2018PDBVRG4 | TPS7A2018PDBVRG4 |
+| U14 | TPS7A2018PDBVRG4 | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
 | U9 | TPS62933 | 3.8-30V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8 |
-| U18 | TPS7A2045PDBVR | TPS7A2045PDBVR |
+| U18 | TPS7A2045PDBVR | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
 | IC5 | [MIE1W0505BGLVH-3R-P](https://componentsearchengine.com/search.html?searchString=MIE1W0505BGLVH-3R-P) | Isolated DC/DC Converters - SMD Next gen ultra small size isolated power module |
 | U7 | MCP1502T-50E/CHY | Voltage References 50 ppm 0.1% Voltage Reference |
-| U11 | TPS7A2055PDBVR | TPS7A2055PDBVR |
-| U16 | TPS7A2055PDBVR | TPS7A2055PDBVR |
-| U15 | TPS7A2050PDBVR | TPS7A2050PDBVR |
+| U11 | TPS7A2055PDBVR | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
+| U16 | TPS7A2055PDBVR | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
+| U15 | TPS7A2050PDBVR | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
 | U13 | TPS7A2033PDBVR | TPS7A2033PDBVR |
-| U17 | TPS7A2033PDBVR | TPS7A2033PDBVR |
-| U12 | TPS7A2050PDBVR | TPS7A2050PDBVR |
+| U17 | TPS7A2033PDBVR | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
+| U12 | TPS7A2050PDBVR | LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo |
 | U3 | [CZ3723](https://componentsearchengine.com/search.html?searchString=CZ3A05) | Board Mount Current Sensors 60A Precise unipolar Coreless Current Sensor w/UL61800 |
 | U6 | OPA2328DR | Precision, 10-MHz, Low-Noise, Low-Power, RRIO, CMOS Operational Amplifier, SOIC-8 |
 | U4 | AMC1351DWV | Precision Reinforced Isolated Amplifier, 5V Input, 300 kHz Bandwidth, 0.4V/V, 0.2% Gain Tolerance, Differential Output, SOIC-8 |

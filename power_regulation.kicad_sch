@@ -17849,7 +17849,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2018PDBVRG4"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 275.59 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -20097,7 +20097,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2045PDBVR"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 374.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -24846,7 +24846,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2055PDBVR"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 195.58 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25435,7 +25435,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2055PDBVR"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 360.68 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -28864,7 +28864,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2050PDBVR"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 288.29 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -29221,7 +29221,7 @@
 				)
 			)
 		)
-		(property "Manufacturing_Number" ""
+		(property "Manufacturing_Number" "TPS7A2033PDBVR"
 			(at 273.05 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -29310,7 +29310,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2033PDBVR"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 360.68 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -29321,7 +29321,7 @@
 				)
 			)
 		)
-		(property "Manufacturing_Number" ""
+		(property "Manufacturer_Number" "TPS7A2033PDBVR"
 			(at 360.68 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -29566,7 +29566,7 @@
 				)
 			)
 		)
-		(property "Description" "TPS7A2050PDBVR"
+		(property "Description" "LDO Voltage Regulators 300-mA ultra-low-noi se low-IQ low-dropo"
 			(at 265.43 35.56 0)
 			(hide yes)
 			(show_name no)
