@@ -21,7 +21,7 @@
 | **SMD Components** | 244 |
 | **THT Components** | 9 |
 | **Unique Parts** | 72 |
-| **DRC Status** | ⚠️ 26 Errors, 109 Warnings |
+| **DRC Status** | ⚠️ 27 Errors, 106 Warnings |
 | **KiCad Version** | 10.0.4 |
 
 ### 📐 Manufacturing & DRC
